@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ThinkerP</title>
-  <link rel="stylesheet" href="calc.css">
+  <link rel="stylesheet" href="calc.css" />
 </head>
+
 <body>
-  <main>
-      <textarea name="" id="" cols="30" rows="10" class="display"></textarea>
-      <div class="downSection">
-      <aside>
-              <section class="row3 row">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-              </section>
-              <section class="row2 row">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-              </section>
-              <section class="row1 row">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-              </section>
-              <section class="row1 row">
-                <button>0</button>
-                <button>.</button>
-                <button>+</button>
-              </section>
-             
-      </aside>
-      <section class="operators ">
-        <button>-</button>
-        <button>/</button>
-        <button>X</button>
-        <button>=</button>
+  <main class="calculator">
+    <div class="brand-name">
+      <h1>ThinkerP</h1>
+    </div>
+    <div class="display">0</div>
+    <div class="keys">
+      <div class="higherOperation">
+        <button class="clickColor">M+</button>
+        <button class="clickColor">MR</button>
+        <button class="clickColor">Rnd</button>
+        <button class="clickColor">tan</button>
+        <button class="clickColor">sin</button>
+        <button class="clickColor">cos</button>
+        <button class="clickColor">log10</button>
+        <button class="clickColor">a/b</button>
+        <button class="clickColor">n!</button>
+        <button class="clickColor">Mod</button>
+        <button class="clickColor">bin</button>
+        <button class="clickColor">oct</button>
+        <button class="clickColor">&#8730</button>
+        <button class="clickColor">&#960</button>
+        <button class="clickColor">%</button>
+        <button class="clickColor">(</button>
+        <button class="clickColor">)</button>
+        <button class="clickColor">x^y</button>
+        <button class="clickColor">&#8731</button>
+        <button class="clickColor">e</button>
+        <button class="clickColor">x.x</button>
+      </div>
+      <section> 
+        <div class="numbers">
+          <button class="number clickColor" id="1">1</button>
+          <button class="number clickColor" id="2">2</button>
+          <button class="number clickColor" id="3">3</button>
+          <button class="number clickColor" id="4">4</button>
+          <button class="number clickColor" id="5">5</button>
+          <button class="number clickColor" id="6">6</button>
+          <button class="number clickColor" id="7">7</button>
+          <button class="number clickColor" id="8">8</button>
+          <button class="number clickColor" id="9">9</button>
+          <button class="number clickColor" id="0">0</button>
+          <button class="number clickColor" id="." data-action="decimal">.</button>
+          <button class="number clickColor">=</button>
+        </div>
+        <div class="controls">
+          <button class="clickColor" data-action="clearAll">AC</button>
+          <button class="clickColor" data-action="clear">Del</button>
+          <button class="clickColor" data-action="add">+</button>
+          <button class="clickColor" data-action="subtract">-</button>
+          <button class="clickColor" data-action="multiply">/</button>
+          <button class="clickColor" data-action="divide">X</button>
+        </div>
       </section>
-    <section class = "function">
-        <button>DEL</button>
-        <button>AC</button>
-        <button>EXP</button>
-        <button>MODE</button>
-    </section>
     </div>
   </main>
-</bobutton
+</body>
+
 </html>
